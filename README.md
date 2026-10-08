@@ -21,6 +21,7 @@ Tests passed with Node.js 18, 20, and 22:
 
 https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37747005077
 
+
 ## Task 3 — Dependency caching
 
 | Run | Duration | Link |
