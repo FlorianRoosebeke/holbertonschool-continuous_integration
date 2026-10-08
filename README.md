@@ -36,3 +36,15 @@ The `deploy-check` job uses the `CI_TOKEN` repository secret through
 
 It runs only after linting and all tests pass (`needs: [lint, test]`),
 and only on the `main` branch.
+
+
+## Task 0 – Build Docker image in CI
+
+This project adds a GitHub Actions workflow that **builds a Docker image** on every `push` to the main branch.
+
+- The workflow is in `.github/workflows/image.yml`.
+- It uses `docker/build-push-action` with `push: false` to only test the build.
+- The image is built from the `Dockerfile` at the root of the repository.
+
+https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37781744525/job/113326273538
+
