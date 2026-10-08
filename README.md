@@ -71,3 +71,12 @@ Docker layer caching is enabled with GitHub Actions cache.
 | ------------ | -------: | --------------------------------------------------------------------------------------------------------------- |
 | Before cache |      42s | [View run](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37792166393) |
 | After cache  |      29s | [View run](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37792438760) |
+
+## Task 4 Security scan
+
+The Docker image is scanned with Trivy before it is published.
+
+The workflow fails if Trivy finds a `CRITICAL` vulnerability.
+If the scan fails, the Docker image is not published.
+
+link : https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37793295329/job/113366062290
