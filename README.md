@@ -48,3 +48,10 @@ This project adds a GitHub Actions workflow that **builds a Docker image** on ev
 
 https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37781744525/job/113326273538
 
+## Task 1 - Docker image
+
+The Docker image is built and published to GitHub Container Registry on every push to the `main` branch.
+
+Image:
+
+[ghcr.io/florianroosebeke/holbertonschool-continuous_integrations](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integrations/pkgs/container/holbertonschool-continuous_integrations)
