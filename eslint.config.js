@@ -1,6 +1,1 @@
-module.exports = [
-  {
-    files: ["**/*.js"],
-    rules: {},
-  },
-];
+module.exports = [{}];

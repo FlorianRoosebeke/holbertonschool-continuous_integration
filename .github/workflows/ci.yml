@@ -2,13 +2,17 @@ name: CI
 
 on:
   push:
+  pull_request:
+
+permissions:
+  contents: read
 
 jobs:
   lint:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -16,10 +20,23 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: |
-          npm init -y
-          npm install eslint --save-dev
+      - name: Install ESLint
+        run: npm install eslint
 
       - name: Run linter
-        run: npx eslint index.js
+        run: npx eslint test.js
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run tests
+        run: node test.js
