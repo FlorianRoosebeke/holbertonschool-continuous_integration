@@ -53,3 +53,12 @@ https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actio
 The Docker image is built and published to GitHub Container Registry on every push to the `main` branch.
 
 https://github.com/users/FlorianRoosebeke/packages/container/package/holbertonschool-continuous_integrations
+
+## Task 2 - Docker image tags
+
+Docker image tags are generated automatically:
+
+- `latest` for the `main` branch
+- Branch name, for example `main`
+- Short commit SHA
+- Git version tags, for example `v1.0.0`
