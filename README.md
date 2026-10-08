@@ -64,3 +64,4 @@ Docker image tags are generated automatically:
 - Git version tags, for example `v1.0.0`
 
 ## Task 3
+test
