@@ -52,6 +52,4 @@ https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actio
 
 The Docker image is built and published to GitHub Container Registry on every push to the `main` branch.
 
-Image:
-
-[ghcr.io/florianroosebeke/holbertonschool-continuous_integrations](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37785326341)
+https://github.com/users/FlorianRoosebeke/packages/container/package/holbertonschool-continuous_integrations
