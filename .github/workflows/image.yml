@@ -30,5 +30,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/holbertonschool-continuous_integrations:latest
-            ghcr.io/${{ github.repository_owner }}/holbertonschool-continuous_integrations:${{ github.sha }}
+           ghcr.io/florianroosebeke/holbertonschool-continuous_integrations:latest
+           ghcr.io/florianroosebeke/holbertonschool-continuous_integrations:${{ github.sha }}
