@@ -1,0 +1,23 @@
+{
+  "name": "holbertonschool-continuous_integration",
+  "version": "1.0.0",
+  "description": "https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37741502917",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/issues"
+  },
+  "homepage": "https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration#readme",
+  "devDependencies": {
+    "eslint": "^10.12.0"
+  }
+}
