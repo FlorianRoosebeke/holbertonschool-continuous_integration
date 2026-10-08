@@ -23,10 +23,10 @@ https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actio
 
 ## Task 3 — Dependency caching
 
-| Run | Duration | Link |
-|---|---:|---|
+| Run              |   Duration | Link                                                                                                          |
+| ---------------- | ---------: | ------------------------------------------------------------------------------------------------------------- |
 | Before npm cache | 16 seconds | [View run]https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37753793718 |
-| After npm cache | 17 seconds | [View run]|https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37753850330/job/113233423504
+| After npm cache  | 17 seconds | [View run]                                                                                                    | https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37753850330/job/113233423504 |
 CI cache enabled.
 
 ## Task 4 — Secrets and control flow
@@ -63,5 +63,11 @@ Docker image tags are generated automatically:
 - Short commit SHA
 - Git version tags, for example `v1.0.0`
 
-## Task 3
-test
+## Task 3 - Docker layer caching
+
+Docker layer caching is enabled with GitHub Actions cache.
+
+| Build        | Duration | Run                                                                                                             |
+| ------------ | -------: | --------------------------------------------------------------------------------------------------------------- |
+| Before cache |      42s | [View run](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37792166393) |
+| After cache  |      29s | [View run](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37792438760) |
