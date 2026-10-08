@@ -1,6 +1,11 @@
 # holbertonschool-continuous_integration
+
+## Task 0
+
 ## workflow
 https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37741502917
+
+## Task 1
 
 ## CI proof
 
@@ -25,12 +30,10 @@ https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actio
 | After npm cache | 17 seconds | [View run]|https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37753850330/job/113233423504
 CI cache enabled.
 
-## Task 0 – Build Docker image in CI
+## Task 4 — Secrets and control flow
 
-This project adds a GitHub Actions workflow that **builds a Docker image** on every `push` to the main branch.
+The `deploy-check` job uses the `CI_TOKEN` repository secret through
+`${{ secrets.CI_TOKEN }}` without printing it.
 
-- The workflow is in `.github/workflows/image.yml`.
-- It uses `docker/build-push-action` with `push: false` to only test the build.
-- The image is built from the `Dockerfile` at the root of the repository.
-
-Example GitHub Actions run
+It runs only after linting and all tests pass (`needs: [lint, test]`),
+and only on the `main` branch.
