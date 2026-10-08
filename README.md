@@ -54,4 +54,4 @@ The Docker image is built and published to GitHub Container Registry on every pu
 
 Image:
 
-[ghcr.io/florianroosebeke/holbertonschool-continuous_integrations](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integrations/pkgs/container/holbertonschool-continuous_integrations)
+[ghcr.io/florianroosebeke/holbertonschool-continuous_integrations](https://github.com/FlorianRoosebeke/holbertonschool-continuous_integration/actions/runs/37785326341)
