@@ -21,7 +21,7 @@ jobs:
         run: npm install eslint
 
       - name: Run linter
-        run: npx eslint index.js
+        run: npx eslint test.js
 
   test:
     runs-on: ubuntu-latest
