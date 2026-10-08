@@ -62,3 +62,5 @@ Docker image tags are generated automatically:
 - Branch name, for example `main`
 - Short commit SHA
 - Git version tags, for example `v1.0.0`
+
+## Task 3
